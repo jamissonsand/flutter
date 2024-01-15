@@ -11,8 +11,8 @@ https://github.com/jamissonsand
 import 'package:currency_text_input_formatter/currency_text_input_formatter.dart';
 import 'package:flutter/services.dart';
 
-class BrasilTextField extends StatefulWidget {
-  const BrasilTextField({
+class brasilcurrencyformat extends StatefulWidget {
+  const brasilcurrencyformat({
     Key? key,
     this.width,
     this.height,
@@ -30,10 +30,10 @@ class BrasilTextField extends StatefulWidget {
   final Color colorText;
 
   @override
-  _BrasilTextFieldState createState() => _BrasilTextFieldState();
+  _BrasilcurrencyformatState createState() => _BrasilcurrencyformatState();
 }
 
-class _BrasilTextFieldState extends State<BrasilTextField> {
+class _BrasilcurrencyformatState extends State<brasilcurrencyformat> {
   @override
   Widget build(BuildContext context) {
     return TextFormField(
